@@ -1,0 +1,186 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #15153c;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#hero {
+    background: url(https://www.ontomywardrobe.com/wp-content/uploads/2021/04/Inventory-Management.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    backdrop-filter: blur(5px); /* Adjust blur level as needed */
+    z-index: 1;
+}
+
+#hero h1,
+#hero p,
+#hero button {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+#hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background: #0056b3;
+}
+
+#key-problems {
+    background: #f9f9f9;
+}
+
+.problems-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.problem {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#key-metrics .metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+#key-metrics .metric {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#reviews .reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review {
+    max-width: 600px;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#problem-target .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#problem-target .tablink {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#problem-target .tablink:hover {
+    background: #0056b3;
+}
+
+#problem-target .tabcontent {
+    display: none;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#cta {
+    background: #007bff;
+    color: white;
+    padding: 50px 20px;
+}
+
+#cta button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#cta button:hover {
+    background: #003f7f;
+}
+
+#footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#footer nav a:hover {
+    color: white;
+}
+
+
